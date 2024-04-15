@@ -37,7 +37,7 @@ public class Question5
     }
     /*with help from StackOverflow */
     int count = 0;
-    int mode;
+    int mode = 0;
     for (int i : values) {
       int x = i;
       int tempCount = 1;
@@ -50,7 +50,7 @@ public class Question5
         tempCount++;
       }
       
-      if (tempCount > count && mode > x) {
+      if (tempCount > count) {
         count = tempCount;
         mode = x;
       }
