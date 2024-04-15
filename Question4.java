@@ -26,8 +26,8 @@ public class Question4
         x -= 1;
       }
       System.out.print("\n");
-
       i -= 1;
+      x = i;
     }
   }
 }
