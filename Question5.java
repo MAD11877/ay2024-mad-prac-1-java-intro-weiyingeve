@@ -50,7 +50,7 @@ public class Question5
         tempCount++;
       }
       
-      if (tempCount > count) {
+      if (tempCount > count && mode > x) {
         count = tempCount;
         mode = x;
       }
