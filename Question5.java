@@ -42,8 +42,9 @@ public class Question5
       int x = i;
       int tempCount = 1;
 
+      int y = 0;
       for (int j : values) {
-        int y = j;
+        y = j;
       }
       if (x == y) {
         tempCount++;
